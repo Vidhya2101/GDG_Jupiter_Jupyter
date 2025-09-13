@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000G\u0000D\u0000G\u0000_\u0000J\u0000u\u0000p\u0000i\u0000t\u0000e\u0000r\u0000_\u0000J\u0000u\u0000p\u0000y\u0000t\u0000e\u0000r\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "crypto-js": "^4.2.0",
     "express": "^5.1.0",
     "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
